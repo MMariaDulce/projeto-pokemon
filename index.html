@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POKEMON</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>inicio</title>
 </head>
 <body>
-    <form id="Login">
-    <div class="header">
-        
-        <i class="fa-solid fa-user"></i>
-        <label for="">Login</label>
-        <input type="text" placeholder="Nome" id="login" required>
-        <i class="fa-solid fa-lock"></i>
-        <label for="">Senha</label>
-        <input type="password" placeholder="Senha" id="senha" required>
-       
-        <div class="conta">
-            <label>Não tem uma conta?</label>
-            <label> <a href="#">Cadastre-se</a>
-        </div>    
-        <button type="submit" class="btn">Avancar</button>
-        <script src="../login/script.js"></script>
-    </form>
+    <header>
+        <nav id="navbar">
+            <img src="../surpresa/assets/pokemon_logo.png" class="logo" alt="lOGO">
+
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a1">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../surpresa/index.html">Surpresa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../login/index.html">Login</a>
+                </li>
+            </ul>
+            <button class="btn-default">Cadastro</button>
+           
+
+        </nav>
+        <div id="mobile-menu">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a1">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a2">Surpresa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a3">Login</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Cadastro
+            </button>
+            
+        </div>
+        <script src="/pagina inicial/script.js"></script>
+    </header>    
 </body>
 </html>

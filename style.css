@@ -3,45 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+
+.btn-default {
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    padding-top: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.container{
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
-
-}
-.header{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 5rem;
-    background-color:aliceblue;
-    border-radius: 8px;
-}
-
-button.btn{
     background-color: #2615EB;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
     color: aliceblue;
-    border-radius: 100px;
-    padding: 5px;
-}
-button.btn:hover{
-    background-color: #1547eb;
     cursor: pointer;
+    transition: background-color .3s ease;
 }
-#login{
-    padding: 9px;
+.btn-default:hover{
+    background-color: blue;
 }
-#senha{
-    padding: 9px;
-}
+
+
